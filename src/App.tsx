@@ -125,7 +125,7 @@ function App() {
               <ChevronRight />
             </Button>
           </div>
-          <div className='flex max-w-[100%] items-center gap-[20px] overflow-x-scroll'>
+          <div className='flex max-w-[100%] items-center gap-[20px] overflow-x-auto'>
             <a href='#' className='block'>
               <img src='/1.webp' alt='shoes' className='max-w-[150px]' />
               <div className='grid gap-[4px] px-[10px]'>
