@@ -116,7 +116,10 @@ function App() {
             </a>
           </div>
         </section>
-        <section id='section2' className='grid gap-[10px] p-[15px]'>
+        <section
+          id='section2'
+          className='grid gap-[10px] p-[15px] min-[769px]:gap-[20px] min-[769px]:p-[20px]'
+        >
           <div className='flex items-center justify-between'>
             <h1 className='text-[22px] font-extrabold leading-[130%] min-[769px]:text-[32px] min-[769px]:leading-[100%]'>
               Только что купили
@@ -126,7 +129,54 @@ function App() {
               <ChevronRight />
             </Button>
           </div>
-          <div className='flex gap-[20px]'></div>
+          <div className='flex items-center gap-[20px]'>
+            <a href='#' className='block'>
+              <img src='/1.webp' alt='shoes' className='max-w-[150px]' />
+              <div className='grid gap-[4px] px-[10px]'>
+                <div className='text-[20px] font-bold leading-[20px] tracking-[-0.03rem]'>
+                  14 443
+                  <span className='text-[12px]'>₽</span>
+                </div>
+                <div>
+                  <span className='mr-[2px] rounded-[4px] bg-[#3e3e3e] px-[3px] text-[11px] leading-[16px] text-white'>
+                    7 222
+                    <span>₽</span> × 2
+                  </span>
+                  в сплит
+                </div>
+                <div className='text-[14px] font-medium leading-[17px]'>
+                  Nike React Hyperdunk 2017 Low
+                </div>
+                <div className='flex gap-2 text-[11px]'>
+                  21 день
+                  <div>9 дней</div>
+                </div>
+              </div>
+            </a>
+            <a href='#' className='block'>
+              <img src='/2.webp' alt='shoes' className='max-w-[150px]' />
+              <div className='grid gap-[4px] px-[10px]'>
+                <div className='text-[20px] font-bold leading-[20px] tracking-[-0.03rem]'>
+                  14 443
+                  <span className='text-[12px]'>₽</span>
+                </div>
+                <div>
+                  <span className='mr-[2px] rounded-[4px] bg-[#3e3e3e] px-[3px] text-[11px] leading-[16px] text-white'>
+                    7 222
+                    <span>₽</span> × 2
+                  </span>
+                  в сплит
+                </div>
+                <div className='text-[14px] font-medium leading-[17px]'>
+                  Nike React Hyperdunk 2017 Low
+                </div>
+                <div className='flex gap-2 text-[11px]'>
+                  21 день
+                  <div>9 дней</div>
+                </div>
+              </div>
+            </a>
+          </div>
         </section>
       </main>
     </>
