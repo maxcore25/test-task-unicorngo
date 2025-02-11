@@ -1,5 +1,23 @@
 # test-task-unicorngo
 
+## Инструкция
+
+1. Скачайте зависимости
+
+```bash
+pnpm i
+```
+
+2. Запустите проект командой
+
+```bash
+pnpm dev
+```
+
+3. Перейдите по ссылке: http://localhost:5173
+
+## ТЗ
+
 Сверстать верхнюю часть главного экрана сайта https://unicorngo.ru/?srsltid=AfmBOooNkg9OHbZQQjdQ0ZjGg3vIVxfdnrQA4-CCftl0t7S_LCoWLz_2
 
 Основные элементы, которые должны быть:
