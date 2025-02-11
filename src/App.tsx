@@ -16,7 +16,7 @@ function App() {
         <TabsContent value='password'>Change your password here.</TabsContent> */}
       </Tabs>
 
-      <main className='grid gap-[10px]'>
+      <main className='m-[0_auto] grid max-w-[1432px] gap-[10px]'>
         <section
           id='hero'
           className='grid gap-[10px] p-[15px] min-[769px]:gap-[20px] min-[769px]:p-[20px]'
