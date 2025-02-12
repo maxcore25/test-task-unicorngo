@@ -182,6 +182,62 @@ function App() {
                 </div>
               </div>
             </a>
+            <a href='#' className='relative block'>
+              <Heart className='absolute left-0 top-0 z-10' />
+              <img
+                src='/1.webp'
+                alt='shoes'
+                className='max-h-[96px] max-w-[150px]'
+              />
+              <div className='grid gap-[4px] px-[10px]'>
+                <div className='text-[20px] font-bold leading-[20px] tracking-[-0.03rem]'>
+                  14 443
+                  <span className='text-[12px]'>₽</span>
+                </div>
+                <div className='text-[11px] leading-[16px]'>
+                  <span className='mr-[2px] rounded-[4px] bg-[#3e3e3e] px-[3px] text-[11px] leading-[16px] text-white'>
+                    7 222
+                    <span>₽</span> × 2
+                  </span>
+                  в сплит
+                </div>
+                <div className='text-[14px] font-medium leading-[17px]'>
+                  Nike React Hyperdunk 2017 Low
+                </div>
+                <div className='flex gap-2 text-[11px]'>
+                  21 день
+                  <div>9 дней</div>
+                </div>
+              </div>
+            </a>
+            <a href='#' className='relative block'>
+              <Heart className='absolute left-0 top-0 z-10' />
+              <img
+                src='/2.webp'
+                alt='shoes'
+                className='max-h-[96px] max-w-[150px]'
+              />
+              <div className='grid gap-[4px] px-[10px]'>
+                <div className='text-[20px] font-bold leading-[20px] tracking-[-0.03rem]'>
+                  24 983
+                  <span className='text-[12px]'>₽</span>
+                </div>
+                <div className='text-[11px] leading-[16px]'>
+                  <span className='mr-[2px] rounded-[4px] bg-[#3e3e3e] px-[3px] text-white'>
+                    12 492
+                    <span>₽</span> × 2
+                  </span>
+                  в сплит
+                </div>
+                <div className='text-[14px] font-medium leading-[17px]'>
+                  THE NORTH FACE GLENCLYFFE{' '}
+                </div>
+                <div className='flex gap-2 text-[11px]'>
+                  21 день
+                  <div>9 дней</div>
+                </div>
+              </div>
+            </a>
           </div>
         </section>
       </main>
